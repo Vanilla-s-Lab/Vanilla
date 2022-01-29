@@ -13,8 +13,5 @@ let cfg = config.nixFlakes; in
     nix.extraOptions = ''
       experimental-features = nix-command flakes
     '';
-
-    environment.systemPackages =
-      with pkgs; [ git ];
   };
 }
