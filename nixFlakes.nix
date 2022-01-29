@@ -4,7 +4,7 @@ let cfg = config.nixFlakes; in
   options = with lib; {
     nixFlakes.enable = mkOption {
       type = types.bool;
-      default = false;
+      default = true;
     };
   };
 

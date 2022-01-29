@@ -4,7 +4,7 @@ let cfg = config.fixHDMI; in
   options = with lib; {
     fixHDMI.enable = mkOption {
       type = types.bool;
-      default = false;
+      default = true;
     };
   };
 
